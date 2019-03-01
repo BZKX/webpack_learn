@@ -5,5 +5,6 @@
  * @IDE: WebStorm
  */
 
-const greeter = require('./Greeter');
-document.querySelector('#root').appendChild(greeter());
+//main.js
+const greeter = require('./Greeter.js');
+document.querySelector("#root").appendChild(greeter());
